@@ -102,9 +102,9 @@ p.suascompras{
   display: flex;
   flex-direction: column;
   align-items: center;
-  font: var(--sm-font);
   color: var(--font-light);
   font: var(--md-font);
+  font-weight: bold;
 }
 
 .add-remove span:hover{
@@ -112,7 +112,16 @@ p.suascompras{
 }
 
 .add-remove span:nth-child(2){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
   font: var(--sm-font);
+  border: 1px solid var(--font-light);
+  padding: 4px;
+  font-weight: light;
 }
 
 .list-product li:nth-child(5) {
