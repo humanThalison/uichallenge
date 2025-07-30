@@ -1,15 +1,26 @@
 :root{
-  --bg-color:#E0F252;
-  --bg-light:#F5F5F5;
-  --primary-color:#0D0D0D;
-  --second-color:#E0F252;
-  --third-color:#FF6600;
-  --fourth-color:#604CC3;
-  --font-light:#a1a1a1;
+  --bg-color:#1c5ead;
+  --bg-light:#f2f7fd;
+  --primary-color:#112340;
+  --second-color:#193861;
+  --third-color:#184174;
+  --fourth-color:#184b8c;
+  --font-light:#8ebaeb;
   --sm-font: 14px/150% "Inter", sans-serif;
   --md-font: 16px/175% "Inter", sans-serif;
   --lg-font: 24px/175% "Inter", sans-serif;
   font-family: "Inter", sans-serif;
+  --color-mariner-50: #f2f7fd;
+  --color-mariner-100: #e4ecfa;
+  --color-mariner-200: #c3d9f4;
+  --color-mariner-300: #8ebaeb;
+  --color-mariner-400: #5296de;
+  --color-mariner-500: #2a75c6;
+  --color-mariner-600: #1c5ead;
+  --color-mariner-700: #184b8c;
+  --color-mariner-800: #184174;
+  --color-mariner-900: #193861;
+  --color-mariner-950: #112340;
 }
 
 body{

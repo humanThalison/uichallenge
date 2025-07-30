@@ -153,3 +153,136 @@ button{
 #payment{
   background-color: var(--bg-light);
 }
+
+.payment-header{
+  display: flex;
+  height: 100px;
+  background-color:var(--third-color);
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(221, 221, 221);
+}
+
+.payment-step{
+  display: flex;
+  width: 100%;
+  font: var(--sm-font);
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.step{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.finished-step{
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.next-step{
+  display: flex;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: var(--second-color);
+  opacity: 0.5;
+}
+
+.next-step > .inner-circle{
+  background-color: var(--bg-light);
+  opacity: 0.5;
+}
+.out-circle{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 255, 0);
+  }
+
+   label{
+    font-size: 10px;
+  }
+  .lines{
+    margin-top: 05px;
+    width: 100px;
+    border-bottom: 2px solid #18c73e;
+  }
+
+  .payment-step > div.step:nth-child(3) .lines{
+    opacity: 0;
+  }
+
+  #payment > p{
+    color: var(--font-light);
+    font: var(--sm-font);
+    padding-left: 20px;
+    padding-block: 0;
+    margin-bottom: 0;
+  }
+
+  .payment-methods{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .payment-option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--bg-light);
+    box-shadow: 1px 1px 20px 15px rgba(0,0,0, 0.05);
+    padding: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+    position: relative;
+  }
+
+  .payment-option img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .payment-methods .payment-option:nth-child(1){
+    opacity: 1;
+    border: 1px solid var(--light-color);
+  }
+
+  img.checked{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }

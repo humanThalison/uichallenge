@@ -17,7 +17,7 @@
 
 </head>
 <body>
-  <header class="container">
+  <!-- <header class="container">
     <ul>
       <li>Sobre Nós</li>
       <li>Página Inicial</li>
@@ -27,7 +27,7 @@
       <li>Histórico</li>
       <li>Perfil</li>
     </ul>
-  </header>
+  </header> -->
   <main >
     <div id="cart" >
       <div class="cart-header">
@@ -112,7 +112,52 @@
       <div class="button"><button>Finalizar compra</button></div>
     </div>
     <div id="payment">
+      <div class="payment-header">
+        <div class="payment-step">
+          <div class="step">
+            <span class="out-circle finished-step">
+              <span class="inner-circle">
+                 ✔
+              </span>
+            </span class="out-circle finished-step">
+            <div class="lines"></div>
+          <label for="">shopping</label>
+          </div>
+          <div class="step">
+            <span class="out-circle finished-step">
+              <span class="inner-circle">
+                ✔
+              </span>
+            </span class="out-circle finished-step">
+          <div class="lines"></div>
+          <label for="">pagamento</label>
+          </div>          
+          <div class="step">
+            <span class="out-circle next-step">
+              <span class="inner-circle">
 
+              </span>
+            </span class="out-circle next-step">
+          <label for="">order</label>
+          </div>
+        </div>
+      </div>
+      <p>Método de pagamento</p>
+      <div class="payment-methods">
+        <div class="payment-option">
+          <img class="checked" src="assets/right.png" alt="">
+          <img src="assets/credit-card.png" alt="">
+          <label for="">Crédito</label>
+        </div>
+        <div class="payment-option">
+          <img src="assets/debit.png" alt="">
+          <label for="">Débito</label>
+        </div>
+        <div class="payment-option">
+          <img src="assets/pix-01.png" alt="">
+          <label for="">Pix</label>
+        </div>
+      </div>
     </div>
   </main>
 </body>
