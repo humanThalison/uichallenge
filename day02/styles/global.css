@@ -1,0 +1,33 @@
+:root{
+  --bg-color:#E0F252;
+  --bg-light:#F5F5F5;
+  --primary-color:#0D0D0D;
+  --second-color:#E0F252;
+  --third-color:#FF6600;
+  --fourth-color:#604CC3;
+  --font-light:#a1a1a1;
+  --sm-font: 14px/150% "Inter", sans-serif;
+  --md-font: 16px/175% "Inter", sans-serif;
+  --lg-font: 24px/175% "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  font-family: "Inter", sans-serif;
+  color: var(--primary-color);
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  padding-inline: 100px;
+}

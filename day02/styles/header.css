@@ -1,0 +1,15 @@
+header{
+  display: flex;
+  height: 30px;
+  font: var(--sm-font);
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 8px;
+  background-color: var(--bg-light);
+  color: var(--font-light);
+}
+
+ul{
+  display: flex;
+  gap: 20px;
+}
