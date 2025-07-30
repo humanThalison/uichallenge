@@ -1,0 +1,146 @@
+main{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  gap: 75px;
+  box-sizing: border-box;
+}
+
+main > div{
+  width: 400px;
+  height: 650px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 20px 15px rgba(0,0,0, 0.05);
+}
+
+#cart{
+  background-color: var(--bg-light);
+  overflow: hidden;
+}
+
+p.suascompras{
+  color: var(--font-light);
+  padding-left: 20px;
+  font: var(--sm-font);
+}
+
+.cart-header{
+  display: flex;
+  height: 60px;
+  background-color:var(--third-color);
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding-inline: 40px;
+}
+
+.cart-header > img{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid var(--second-color);
+}
+
+.cart-header > h5{
+  display: flex;
+  align-items: center;
+  font: var(--md-font);
+  gap: 12px;
+}
+
+.cart-header > h5 > img{
+  filter: invert();
+}
+
+.list-product{
+  padding-inline: 20px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.product-listed {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px dashed var(--font-light);
+  align-items: center;
+  justify-content: space-between;
+}
+
+ img.product-icon{
+  width: 65px;
+  height: 65px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product-info{
+  width: 175px;
+}
+
+.product-info > span{
+  font: var(--sm-font);
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.product-info > p{
+  font-size: 10px;
+  color: var(--font-light);
+}
+
+.add-remove{
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font: var(--sm-font);
+  color: var(--font-light);
+  font: var(--md-font);
+}
+
+.add-remove span:hover{
+  color: var(--primary-color);
+}
+
+.add-remove span:nth-child(2){
+  font: var(--sm-font);
+}
+
+.list-product li:nth-child(5) {
+  opacity: 0.5;
+}
+.list-product li:last-child {
+  opacity: 0.2;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  width: 200px;
+  height: 45px;
+  bottom: 100px;
+  position: relative;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 15px;
+  font: var(--md-font);
+  color: white;
+  font-weight: bold;
+  box-shadow: 1px 1px 20px 15px rgba(0,0,0, 0.05);
+}
+
+#payment{
+  background-color: var(--bg-light);
+}
