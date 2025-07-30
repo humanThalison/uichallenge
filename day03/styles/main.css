@@ -1,0 +1,135 @@
+
+#head-line{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 1000px;
+  text-transform: uppercase;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#head-line h1{
+  color: var(--dark-color);
+  font-size: 5em;
+  align-self: center;
+  margin-top: 350px;
+}
+
+mark{
+  background-color: transparent;
+  line-height: 100px;
+  color: var(--fuorth-color);
+  font-style: italic;
+  font-family: "Indie Flower", cursive;
+  font-size: 1.1em
+}
+
+.circles{
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  display: flex;
+  z-index: -999999;
+  justify-content: center;
+  align-items: center;
+}
+
+div.circles div:nth-child(1){
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid var(--third-color);
+  background-color: transparent;
+  position: absolute;
+  opacity: 0.09;
+}
+div.circles div:nth-child(2){
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  border: 1px solid var(--third-color);
+  background-color: transparent;
+  position: absolute;
+  opacity: 0.2;
+}
+div.circles div:nth-child(3){
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  border: 1px solid var(--third-color);
+  background-color: transparent;
+  position: absolute;
+  opacity: 0.5;
+}
+
+.badge{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.badge ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  color: var(--second-color);
+}
+
+.badge ul li{
+  font-size: var(--md-font);
+  width: 125px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 20px;
+  background-color: var(--thirdy-color);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  font: var(--sm-font);
+  text-transform: lowercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.badge ul li:nth-child(1){
+  background-color: var(--third-color);
+  color: hsla(from var(--third-color) h 100% 75% / 1);
+}
+.badge ul li:nth-child(2){
+  background-color: var(--dark-color);
+  color: hsla(from var(--dark-color) h s 50% / 1);
+}
+.badge ul li:nth-child(3){
+  background-color: var(--fuorth-color);
+  color: hsla(from var(--fuorth-color) h 100% 75% / 1);
+}
+.badge ul li:nth-child(4){
+  background-color: var(--second-color);
+  color: hsla(from var(--second-color) h s 50% / 1);
+}
+.badge ul li:nth-child(5){
+  background-color: hsla(from var(--third-color) h 100% 75% / 1);
+  color: var(--third-color);
+}
+
+.badge-colored{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.badge-colored > img{
+  width: 20px;
+  height: 20px;
+  filter: invert();
+  opacity: 0.8;
+}

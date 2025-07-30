@@ -2,14 +2,22 @@
   --bg-color:#ffffff;
   --primary-color:#F9F9F9;
   --second-color:#c9c9c9;
-  --thirdy-color:#0077B6;
+  --third-color:#0077B6;
   --fuorth-color:#F59820;
   --dark-color:#111111;
-  --sm-font:12px/125% light;
-  --md-font:16px/150% normal;
-  --lg-font:24px/175% normal;
-  font-family: "Inter", sans-serif;
+  --medium-dark-color:#696969;
+  --light-color:#cacaca;
+  --sm-font:12px/125% light  "Roboto", sans-serif;
+  --md-font:16px/150% normal  "Roboto", sans-serif;
+  --lg-font:24px/175% normal  "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+}
+
+.indie {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body{
@@ -35,8 +43,6 @@ a{
   color: inherit;
 }
 
-.bnt-transparent{
-  padding: 5px 15px;
-  border: 1px dashed var(--second-color);
-  border-radius: 15px;
+.pad-25{
+  padding-inline: 25%;
 }

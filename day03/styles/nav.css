@@ -14,7 +14,7 @@ nav{
 }
 
 img.logo{
-  width: 75px;
+  width: 100px;
 }
 
 ul{
@@ -24,4 +24,11 @@ ul{
 .menu-nav span{
   margin-left: auto;
   color: var(--dark-color);
+  font: var(--md-font);
+}
+
+.bnt-transparent{
+  padding: 10px 30px;
+  border: 1px dashed var(--second-color);
+  border-radius: 15px;
 }
