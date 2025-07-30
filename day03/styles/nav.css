@@ -1,0 +1,27 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-nav{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding-block: 20px;
+  color: var(--second-color);
+}
+
+img.logo{
+  width: 75px;
+}
+
+ul{
+  gap: 20px;
+}
+
+.menu-nav span{
+  margin-left: auto;
+  color: var(--dark-color);
+}
