@@ -286,3 +286,89 @@ button{
     top: -5px;
     right: -5px;
   }
+
+#card{
+  background-color: var(--bg-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-header{
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  align-items: start;
+  padding-left: 50px;
+}
+
+.card-header > h5{
+  color: var(--color-mariner-950t);
+  font: var(--md-font);
+  font-weight: bold;
+  margin-block: 10px;
+  line-height: 1.2;
+}
+
+.card-header > span{
+  color: var(--font-light);
+  font: var(--sm-font);
+  line-height: 0;
+}
+
+  #card >form{
+    display: flex;
+    padding: 20px;
+    margin-block: 20px;
+    color: var(--font-light);
+    font: var(--md-font);
+    width: 80%;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: var(--second-color);
+    position: relative;
+    gap: 5px;
+  }
+
+  form > input {
+    padding-inline: 20px;
+  }
+
+  form > label{
+    font:var(--sm-font);
+    line-height: 0;
+    margin-block: 10px;
+  }
+
+  input{
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--bg-light);
+    color: var(--font-light);
+    font: var(--sm-font);
+    padding: 5px;
+  }
+
+  input.half{
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .card-details{
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .card-icon{
+    width: 40px;
+    position: absolute;
+    right: 30px;
+    bottom: 15px;
+  }
