@@ -372,3 +372,58 @@ button{
     right: 30px;
     bottom: 15px;
   }
+
+.check-out{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.check-out > span.botão{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  font: var(--md-font);
+  background-color: var(--primary-color);
+  text-align: center;
+  color: var(--bg-light);
+  box-shadow: 1px 1px 20px 15px rgba(0,0,0, 0.05);
+  margin-bottom: 10px;
+}
+
+span.botão > img{
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+#payment > span{
+  font: var(--sm-font);
+  color: var(--font-light);
+  display: flex;
+  justify-content: center;
+}
+
+
+#payment > span > mark{
+  font: var(--sm-font);
+  color: var(--font-light);
+  margin-inline:8px;
+  background-color:transparent;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
+
+#payment > span > img{
+  width: 20px;
+  height: 20px;
+}
