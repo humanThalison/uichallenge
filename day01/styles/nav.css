@@ -1,0 +1,25 @@
+nav{
+  display: flex;
+  height: 30px;
+  background-color: var(--primary-color);
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  justify-content: space-between;
+  color: var(--light-font);
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+a.highlight{
+  color: var(--blue-color);
+  font-weight: bold;
+}
+
+a.highlight:hover{
+  color: var(--thirdy-color);
+}

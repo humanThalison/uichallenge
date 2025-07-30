@@ -1,0 +1,13 @@
+header{
+  height: 140px;
+  display: flex;
+  /* background-color: var(--thirdy-color); */
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px dashed #888;
+  margin-inline: 150px;
+}
+
+img{
+  width: 250px;
+}

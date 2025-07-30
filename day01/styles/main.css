@@ -1,0 +1,101 @@
+main{
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+}
+
+#singup{
+  display: flex;
+  width: 60vw;
+  height: 75%;
+  background-color: var(--second-color);
+  border-radius: 50px;
+  padding-block: 50px;
+}
+
+.leftside{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftside h1{
+  font: 24px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  text-align: center;
+  padding-inline: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.highlight{
+  color: var(--blue-color);
+  border-bottom: 3px solid var(--blue-color);
+}
+
+h1 > span:last-child{
+  border: none;
+}
+
+.rightside{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.rightside > input{
+  line-height: 0;
+  height: 35px;
+  margin-block: 12px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid var(--light-bg);
+  color: #888;
+  padding: 10px 0px 10px 20px;
+}
+.rightside > input::placeholder{
+  color: #999;
+  padding-left: 20px;
+}
+.rightside > label{
+  line-height: 8px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: bold;
+  padding-block: 10px 0;
+  font-size: 20px;
+}
+
+button{
+  background-color: var(--blue-color);
+  color: var(--light-font);
+  padding: 16px 32px;
+  width: auto;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  margin-top: 35px;
+  font: var(--lg-font);
+  font-family: "Poppins", sans-serif;
+}
+
+.rightside > span{
+  align-self: center;
+  padding-block: 25px;
+  color: white;
+}
+
+.rightside > span > a{
+  color: var(--blue-color);
+}

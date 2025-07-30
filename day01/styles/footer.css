@@ -1,0 +1,12 @@
+footer{
+  background-color: var(--primary-color);
+  height: 130px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+span > a{
+  color: var(--blue-color);
+}
