@@ -1,0 +1,57 @@
+#fuorth-section{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/dotted-bg.png);
+  background-size: 5%;
+  background-clip: border-box;
+  background-repeat: repeat;
+  padding-block: 0 100px;
+}
+
+#fuorth-section > h2{
+  font-size: 4em;
+}
+
+.employer-card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.employer-card > div:nth-child(2){
+  align-self: flex-end;
+}
+.employer-card > div:nth-child(4){
+  align-self: flex-end;
+}
+
+.employer-section{
+  width:fit-content;
+  height: auto;
+  gap: 48px;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid var(--medium-dark-color);
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.employer-photo > img{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.employer-desc{
+  width: 400px;
+  color:var(--medium-dark-color)
+}
+
+.employer-desc > span{
+  font-size: 26px;
+  font-weight: bolder;
+}

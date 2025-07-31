@@ -43,6 +43,9 @@ a{
   color: inherit;
 }
 
+.pad-05{
+  padding-inline: 05%;
+}
 .pad-15{
   padding-inline: 15%;
 }
