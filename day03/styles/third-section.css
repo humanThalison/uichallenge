@@ -1,0 +1,55 @@
+#third-section{
+  height: 1000px;
+  width: 100%;
+  padding-block: 100px;
+  display: grid;
+  box-sizing: border-box;
+  grid-template-areas: 
+   "A A B"
+   "A A B"
+   "C D B";
+   gap: 20px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.about{
+  grid-area: A;
+  overflow:auto;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.about h2{
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+  color: var(--third-color);
+}
+.about p{
+  text-align: center;
+  color: var(--medium-dark-color);
+}
+
+.main-img{
+  grid-area: B;
+  background-image: url(../assets/project-04.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+.citations{
+  grid-area: C;
+  background-image: url(../assets/project-05.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
+.project-master{
+  grid-area: D;
+  background-image: url(../assets/project-06.jpg);
+  background-size: cover;
+  border-radius: 20px;
+}
