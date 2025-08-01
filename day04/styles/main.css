@@ -15,13 +15,28 @@ main{
   align-items: center;
 }
 
+.main-left{
+  width: 425px;
+  height: 575px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px,black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid rgb(172, 172, 172);
+  margin-block: 40px;
+  padding: 10px;
+  position: absolute;
+  margin-right: 400px;
+}
+
 .card-left{
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   width: 400px;
-  height: 500px;
+  height: 550px;
   border-radius: inherit;
   background-color: white;
   padding: 10px 50px;
@@ -31,6 +46,7 @@ main{
   color: var(--main-fnt-color);
   font-weight: lighter;
   font-size: 12px;
+  box-shadow:0px 0px 10px #616161;
 }
 
 
@@ -133,20 +149,73 @@ b{
   font-weight: bold;
 }
 
+.main-right{
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px,black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid rgb(172, 172, 172);
+  margin-block: 40px;
+  padding: 10px;
+  position: absolute;
+  margin-right: 400px;
+  position: absolute;
+  float: left;
+  margin-left: 700px;
+  z-index: -999;
+}
 .card-right{
   display: flex;
   width: 300px;
-  height: 400px;
+  height: 420px;
   border-radius: 20px;
   padding-inline:50px;
   background-color: #AFDBF5;
   position: absolute;
   float: left;
   margin-left: 300px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow:0px 2px 10px rgba(0,0,0,0.2);
+}
+
+.bordered{
+  border-radius: 20px;
+  border: 1px solid rgb(172, 172, 172);
+  margin-block: 40px;
+  padding: 10px;
+}
+
+.card-right > div > h1{
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+.card-right > div > h1 >mark{
+  color: #1c9e23;
+  font-size: 40px;
+  background-color: transparent;
+}
+
+.paragraph > mark{
+  color: #1c9e23;
+  background-color: transparent;
+}
+
+.bordered > img{
+  width: 100%;
 }
 
 .chart{
   width:200px;
+  height:100px;
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(221, 221, 221);
@@ -160,6 +229,7 @@ b{
 .trusted div{
   display: flex;
   justify-content: center;
+  margin-block: 20px;
 }
 
 .trusted div > img{
@@ -173,4 +243,20 @@ b{
 
 .trusted div > p{
   margin-left: 10px;
+}
+
+.last{
+  background-color: #6bd370;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 25px;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow:0px 2px 10px rgba(0,0,0,.5);
+}
+
+.deactivated{
+  opacity: 0.5;
 }
