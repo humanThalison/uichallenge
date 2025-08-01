@@ -1,9 +1,9 @@
 :root{
   --bg-color:#007EA7;
   --primary-bg-gradient:linear-gradient(-45deg, var(--primary-color), var(--second-color));
-  --blue-color:#007EA7;
+  --blue-color:#004170;
   --light-font:#E7E7E7;
-  --light-bg:#ebebeb;
+  --light-bg:#ececec;
   --primary-color:#090979;
   --second-color:#00D4FF;
   --thirdy-color:#CC444B;

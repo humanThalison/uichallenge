@@ -23,27 +23,24 @@ main{
   width: 400px;
   height: 500px;
   border-radius: inherit;
-  background-color: #F15025;
+  background-color: white;
   padding: 10px 50px;
   box-sizing: border-box;
   position: absolute;
-  float: left;
   margin-right: 400px;
-  z-index: -999;
-  color: var(--light-font);
+  color: var(--main-fnt-color);
   font-weight: lighter;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 
 .card-left > div.header{
   margin: 0;
   padding: 0;
-
 }
 
 .card-left div > div > h5{
-  color: #E7E7E7;
+  color: var(--main-fnt-color);
   text-align: center;
   font-weight: lighter;
   padding-block: 0;
@@ -81,12 +78,59 @@ main{
   margin-bottom: auto;
 }
 
-.form > input.text{
-  background-color: rgba(211, 211, 211, 0.5);
-  width:250px;
-  padding: 5px;
-  border: none;
+.form > input.text[type="text"]{
+  background-color: rgb(255, 255, 255);
+  width:275px;
+  padding: 5px 15px;
+  border: 1px solid #cfcfcf;
+  box-sizing: border-box;
   border-radius: 5px;
+}
+
+.form > input.text[type="text"]::placeholder{
+  padding: 15px;
+}
+
+.form > label{
+  padding-block: 10px;
+}
+
+input[type="range"]{
+  width: 225px;
+  position: relative;
+  left: 10px;
+}
+
+input[type="range"]::before,
+input[type="range"]::after{
+  position: absolute;
+  display: inline-block;
+}
+
+input[type="range"]::before{
+  content: attr(min);
+  left:0px ;
+  transform: translateX(calc(-100% - 5px));
+}
+input[type="range"]::after{
+  content: "R$" attr(max);
+  right:0px ;
+  transform: translateX(calc(100% + 5px));
+}
+
+input.first[type="range"]::before{
+  content: attr(min);
+  left:0px ;
+  transform: translateX(calc(-100% - 5px));
+}
+input.first[type="range"]::after{
+  content: attr(max);
+  right:0px ;
+  transform: translateX(calc(100% + 5px));
+}
+
+b{
+  font-weight: bold;
 }
 
 .card-right{
@@ -95,11 +139,17 @@ main{
   height: 400px;
   border-radius: 20px;
   padding-inline:50px;
-  background-color: #E7E7E7;
+  background-color: #AFDBF5;
   position: absolute;
   float: left;
   margin-left: 300px;
-  z-index: -999;
+}
+
+.chart{
+  width:200px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 .trusted{
@@ -117,5 +167,10 @@ main{
   height: 30px;
   object-fit: cover;
   border-radius: 50%;
-  border: 2px solid var(--main-fnt-color);
+  border: 3px solid var(--main-fnt-color);
+  margin-left: -10px;
+}
+
+.trusted div > p{
+  margin-left: 10px;
 }
