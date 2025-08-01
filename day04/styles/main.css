@@ -23,7 +23,7 @@ main{
   width: 400px;
   height: 500px;
   border-radius: inherit;
-  background-color: var(--blue-color);
+  background-color: #F15025;
   padding: 10px 50px;
   box-sizing: border-box;
   position: absolute;
@@ -43,7 +43,7 @@ main{
 }
 
 .card-left div > div > h5{
-  color: white;
+  color: #E7E7E7;
   text-align: center;
   font-weight: lighter;
   padding-block: 0;
@@ -95,7 +95,7 @@ main{
   height: 400px;
   border-radius: 20px;
   padding-inline:50px;
-  background-color: white;
+  background-color: #E7E7E7;
   position: absolute;
   float: left;
   margin-left: 300px;

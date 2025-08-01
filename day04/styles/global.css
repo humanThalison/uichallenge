@@ -1,11 +1,11 @@
 :root{
   --bg-color:#007EA7;
-  --primary-bg-gradient:linear-gradient(to left bottom, var(--primary-color), var(--second-color));
+  --primary-bg-gradient:linear-gradient(-45deg, var(--primary-color), var(--second-color));
   --blue-color:#007EA7;
-  --light-font:#ffffff;
+  --light-font:#E7E7E7;
   --light-bg:#ebebeb;
-  --primary-color:#C5D86D;
-  --second-color:#B9E3C6;
+  --primary-color:#090979;
+  --second-color:#00D4FF;
   --thirdy-color:#CC444B;
   --main-fnt-color:#1d1d1d;
   --sm-font:14px/175% normal;
