@@ -55,6 +55,7 @@ nav{
       padding-inline: 10px;
       justify-self: center;
       align-self: center;
+      padding-block: 15px;
     }
 
     li:hover{
