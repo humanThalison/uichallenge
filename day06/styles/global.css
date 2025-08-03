@@ -7,6 +7,7 @@
   --second-color:#B9E3C6;
   --thirdy-color:#CC444B;
   --main-fnt-color:#000500;
+  --tn-font:normal 8px/100% var(--font-family);
   --sm-font:normal 12px/175% var(--font-family);
   --md-font:normal 16px/150% var(--font-family);
   --lg-font:normal 24px/150% var(--font-family);
