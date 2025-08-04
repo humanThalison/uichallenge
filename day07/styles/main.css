@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding-inline:500px ;
+  padding-block:100px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #aaa;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 10px #ddd;
+  gap :20px;
+}
+
+#left, #right {
+  background: url(../assets/phone-bg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: inherit;
+  overflow-y: hidden;
+}
+
+#left{
+  box-sizing: border-box;
+  padding:75px 100px;
+  height: 100%;
+
+  div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+      width: 25px;
+      height: 25px;
+      filter: invert(.65);
+    }
+  }
+
+  div.user-info{
+    display: flex;
+    flex-direction: column;
+    img{
+      filter: invert(0);
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      border: 1px solid #ddd;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    p, span{
+      line-height: 0;
+    }
+    span{
+      font-size: 12px;
+    }
+
+    
+  }
+
+  div.settings-list{
+    ul{
+      margin-block: 20px;
+      gap: 15px;
+      li{
+        display: flex;
+        justify-content: space-between;
+        font: var(--sm-font);
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+        border: 1px solid #ddd;
+        padding: 0;
+        margin: 0;
+        line-height: 0;
+        width: 135%;
+        background-color: transparent;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding-inline: 15px ;
+
+        &:hover{
+          color: #000;
+          transform: scale(1.05);
+        }
+
+        img{
+          width: 15px;
+          height: 15px;
+          filter: invert(.65);
+        }
+      }
+    }
+  }
+}

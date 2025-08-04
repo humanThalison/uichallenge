@@ -7,9 +7,9 @@
   --second-color:#B9E3C6;
   --thirdy-color:#CC444B;
   --main-fnt-color:#000500;
-  --sm-font:14px/175% normal;
-  --md-font:16px/150% normal;
-  --lg-font:24px/150% normal;
+  --sm-font:normal 14px/175% "Poppins", sans-serif;
+  --md-font:normal 16px/150% "Poppins", sans-serif;
+  --lg-font:normal 24px/150% "Poppins", sans-serif;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
@@ -27,4 +27,11 @@ body{
 a{
   text-decoration: none;
   color: inherit;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
