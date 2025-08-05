@@ -171,7 +171,7 @@ div.first-contain, div.sec-contain, div.third-contain{
     }
 
     img{
-      width: 40px;
+      width: 30px;
       height: auto;
       opacity: .6;
     }
@@ -227,4 +227,15 @@ div{
       color: rgb(20, 150, 109)
     }
 }
+}
+
+.warning{
+  font-size: 10px;
+  text-align: center;
+  margin-block: 10px;
+
+  a{
+    color: var(--blue-color);
+    font: 600;
+  }
 }
