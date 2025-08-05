@@ -1,0 +1,42 @@
+body{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+nav{
+  width: 600px;
+  margin-block: 30px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+    box-sizing: border-box;
+  
+  ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    li{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap:10px;
+      padding-block: 10px;
+    }
+
+    span{
+      color: #7c7c7c;
+    }
+
+    img{
+      filter: invert(1);
+      width: 30px;
+    }
+    
+  }
+}
