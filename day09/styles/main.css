@@ -6,8 +6,55 @@ main{
   color: var(--main-fnt-color);
 
   aside{
+    box-sizing: border-box;
     grid-row: 1 / 4;
     grid-column: 1 / 2;
+    font: var(--sm-font);
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--light-gray-border);
+    color: var(--secondary-fnt-color);
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+
+    img.logo{
+      align-self: center;
+      margin-block: 20px;
+    }
+
+
+    label{
+      font-weight: bold;
+      margin-left: -20px;
+      color: var(--main-fnt-color);
+      border-bottom: 1px solid var(--light-gray-border);
+      width: 100%;
+      display: block;
+      margin-top: 05px;
+    }
+
+
+    button{
+        margin-inline: 20px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--btn-color);
+        border: none;
+        border-radius: var(--p20);
+        margin-bottom: 20px;
+      p{
+        color: var(--main-fnt-color);
+        font: var(--md-font);
+        font-size: 14px;
+        font-weight: bolder;
+        gap: 10px;
+      }
+
+    }
+
   }
 
   nav{
