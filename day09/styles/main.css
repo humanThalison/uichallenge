@@ -3,33 +3,29 @@ main{
   height: 100vh;
   grid-template-columns: 200px 70vw 1fr;
   grid-template-rows:50px 90vh 1fr;
+  color: var(--main-fnt-color);
 
   aside{
-    background-color: red;
     grid-row: 1 / 4;
     grid-column: 1 / 2;
   }
 
   nav{
-    background-color: rgb(0, 225, 255);
     grid-row: 1 / 2;
     grid-column: 2 / 4;
   }
 
   div.feature{
-    background-color: rgb(68, 255, 0);
     grid-row: 2 / 3;
     grid-column: 2 / 3;
   }
 
   div.right-menu{
-    background-color: rgb(70, 43, 224);
     grid-row: 2 / 3;
     grid-column: 3 / 4;
   }
 
   div.track{
-    background-color: rgb(177, 175, 0);
     grid-row: 3 / 4;
     grid-column: 2 / 4;
   }
