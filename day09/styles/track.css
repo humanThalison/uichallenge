@@ -1,4 +1,4 @@
-div.track-left{
+  div.track-left{
   box-sizing: border-box;
   display: grid;
   grid-auto-flow: column;
