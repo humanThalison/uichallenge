@@ -1,7 +1,7 @@
 .feature{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows:1fr 1fr;
+  grid-template-rows:2fr .5fr 23rem;
   grid-auto-flow: row;
   box-sizing: border-box;
 
@@ -34,7 +34,7 @@
   .woman{
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    width: 80%;
+    width: 70%;
     object-fit: cover;
   }
 
@@ -48,6 +48,12 @@
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     justify-content: center;
+    margin-block: 15px;
+
+    p{
+      padding: 0;
+      margin: 0;
+    }
   }
 
   .day-content{
@@ -55,13 +61,14 @@
     height: 100%;
     border: 1px solid var(--light-gray-border);
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     border-radius: 15px;
+    padding: 20px;
     box-sizing: border-box;
 
     img.health{
-      width: 150px;
-      height: 150px;
+      width: 100px;
+      height: 100px;
       object-fit: cover;
       align-self: center;
       justify-self: center;
@@ -98,8 +105,10 @@
     gap: 20px;
     grid-auto-flow: column;
 
+
     h1{
       font-size: 16px;
+      padding: 0;
     }
   }
   
@@ -114,6 +123,7 @@
     
     .middle-feature .popular-genrer:nth-child(2){
       background: var(--primary-card-bg);
+      border: none;
       .ball{
         background-color: var(--primary-card-bg);
         filter: brightness(5) blur(10px);
@@ -121,6 +131,7 @@
   }  
     .middle-feature .popular-genrer:nth-child(3){
       background: var(--secondary-card-bg);
+      border: none;
       .ball{
         background-color: var(--secondary-card-bg);
         filter: brightness(5) blur(10px);
@@ -128,6 +139,7 @@
   }  
     .middle-feature .popular-genrer:nth-child(4){
       background: var(--thirdy-card-bg);
+      border: none;
       .ball{
         background-color: var(--thirdy-card-bg);
         filter: brightness(5) blur(10px);
@@ -135,6 +147,7 @@
   }  
     .middle-feature .popular-genrer:nth-child(5){
       background: var(--fuorth-card-bg);
+      border: none;
       .ball{
         background-color: var(--fuorth-card-bg);
         filter: brightness(5) blur(10px);
@@ -142,6 +155,7 @@
   }
     .middle-feature .popular-genrer:nth-child(6){
       background: var(--fifth-card-bg);
+      border: none;
       .ball{
         background-color: var(--fifth-card-bg);
         filter: brightness(5) blur(10px);
@@ -179,7 +193,121 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-flow: column;
+    padding-inline: 32px 0;
+    margin-block: 20px;
   }
+
+  .bottom-left{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+
+    .share-card, .ai-card, .world-card{
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-evenly;
+      padding-block: 20px 10px;
+      align-items: center;
+      flex-direction: column;
+      box-sizing: border-box;
+      text-align: center;
+      padding-inline: 30px;
+      line-height: 0;
+      color: white;
+
+      p:nth-child(1){
+        font-weight: bold;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 20px;
+      }
+      p:nth-child(2){
+        line-height: 15px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+     .ai-card{
+      background:radial-gradient(#7300FF 0%, #260053 100%) ;
+     }
+
+     .share-card{
+      background:radial-gradient(#A70003 0%, #520001 100%) ;
+     }
+
+     .world-card{
+      grid-column: 1 / 3;
+      background:linear-gradient(90deg, #2196F3 0%, #FFFFFF 30%) ;
+      border: 1px solid var(--light-gray-border);
+      display: grid;
+      grid-auto-flow: column;
+      grid-template-columns: 1fr 1fr 2fr;
+      color: var(--main-fnt-color);
+
+      .flags{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flag-share{
+        display: flex;
+        flex-direction: column;
+        margin-inline: 30px;
+        gap: 10px;
+        color: var(--secondary-fnt-color);
+      }
+        .flag{
+          width: 35px;
+          height: 35px;
+          border: 2px solid var(--light-gray-border);
+          border-radius: 50%;
+          box-sizing: border-box;   
+          object-fit: cover;      
+          padding: 0;
+          margin: 0; 
+          margin-left: -20px;
+        }
+
+        .flags > p{
+          padding-left: 5px;
+        }
+
+        button{
+          background-color: var(--blue-color);
+          display: flex;
+          width: 60%;
+          align-self: center;
+          padding: 8px;
+          border: none;
+          border-radius: 10px;
+          justify-content: center;
+          gap: 10px;
+          font: var(--sm-font);
+          color: white;
+          font-weight: bold;
+          align-items: center;
+        }
+
+        button > img{
+          width: 20px;
+          height: 20px;
+        }
+     }
+
+
+  }
+
+
+
+  .bottom-right{
+    background-color: antiquewhite;
+    height: 100%;
+  }
+
 
 
 }
