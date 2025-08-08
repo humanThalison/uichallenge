@@ -65,9 +65,14 @@ div.right-menu{
     font-size: 12px;
     line-height: 0;
     
+    div.btn-play{
+        margin: 0;
+        padding: 0;
+      }
+
     p{
-      display: block;
-      margin-left: 20px;
+      display: flex;
+      margin-left: 10px;
       margin-right: auto;
     }
 
@@ -101,7 +106,7 @@ div.right-menu{
     display: flex;
     flex-direction: column;
     gap: 10px;
-      position: relative;
+    position: relative;
 
     .overlay{
       position: absolute;

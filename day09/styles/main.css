@@ -2,7 +2,7 @@ main{
   display: grid;
   height: 100vh;
   grid-template-columns: 200px 70vw 1fr;
-  grid-template-rows:50px 12fr 1fr;
+  grid-template-rows:50px 12fr 2fr;
   color: var(--main-fnt-color);
 
   aside{
