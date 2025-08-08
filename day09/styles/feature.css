@@ -20,7 +20,6 @@
     font-size: 36px;
     font-weight: lighter;
     padding-inline: 32px;
-    padding-top: 40px;
   }
   span{
     grid-row: 1 / 2;
@@ -35,19 +34,20 @@
   .woman{
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    width: 100%;
+    width: 80%;
     object-fit: cover;
   }
 
   .day{
     width: 100%;
-    height: 100%;
+    height: 100px;
     display: grid;
     grid-auto-flow: column;
     box-sizing: border-box;
     padding-inline: 32px;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    justify-content: center;
   }
 
   .day-content{
@@ -58,12 +58,13 @@
     grid-template-columns: 1fr 2fr 1fr;
     border-radius: 15px;
     box-sizing: border-box;
-    padding: 15px;
 
     img.health{
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      align-self: center;
+      justify-self: center;
     }
 
 
@@ -171,6 +172,14 @@
     overflow: hidden;
 
 
+  } 
+
+
+  .bottom-feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
   }
+
 
 }
