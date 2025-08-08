@@ -301,11 +301,86 @@
 
   }
 
-
-
   .bottom-right{
     background-color: antiquewhite;
     height: 100%;
+    background: url(../assets/images/billie-eilish.png);
+    margin-left: 20px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--fuorth-fnt-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 0;
+    padding: 16px 32px;
+    box-sizing: border-box;
+
+      h1{
+        font-size: 40px;
+        line-height: 100%;
+        margin: 0;
+        padding: 0;
+
+      }
+
+.personal-font{
+    font-family: "Long Cang", cursive;
+    font-size:46px;
+    line-height: 150%;
+}
+
+    .bottom-discovery{
+      display: flex;
+      justify-content: space-between;
+
+    h1:nth-child(2){
+      line-height: 35px;
+    }
+
+    }
+
+    .bottom-buttons{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+
+    div.buttons{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      button:nth-child(1){
+        background-color: var(--blue-color);
+        display: flex;
+        color: white;
+        font: var(--md-font);
+        font-weight: bolder;
+        padding: 8px;
+        gap: 10px;
+        border: none;
+        border-radius: 10px;
+
+        img{
+          width: 20px;
+          filter: invert(1);
+        }
+      }
+
+      button:nth-child(2){
+        background-color:transparent;
+        width: 50px;
+        height: 50px;
+        border-radius: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid var(--red-test);
+      }
+    }
+
   }
 
 
