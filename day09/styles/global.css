@@ -4,6 +4,7 @@
   --blue-color:#2F90F6;
   --light-font:#ffffff;
   --btn-color:#00FF1E;
+  --bg-green:hsla(127, 100%, 50%, 18%);
   --light-bg:#ebebeb;
 
   --primary-card-bg:#171717;
@@ -20,6 +21,7 @@
   --main-fnt-color:#272727;
   --secondary-fnt-color:#555;
   --thirdy-fnt-color:#000;
+  --fuorth-fnt-color:#ddd;
   --sm-font:normal 14px/175% "Inter", sans-serif;
   --md-font:normal 16px/150% "Inter", sans-serif;
   --lg-font:normal 24px/150% "Inter", sans-serif;
